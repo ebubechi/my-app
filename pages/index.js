@@ -187,6 +187,7 @@ export default function Home() {
       });
       connectWallet();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [walletConnected]);
 
   return (
